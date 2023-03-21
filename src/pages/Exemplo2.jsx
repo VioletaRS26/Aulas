@@ -16,10 +16,12 @@ function Exemplo2(){
     return(
         <div>
             <Menu/>
-            <h1>
-                Contagem: {count}
-            </h1>
-            <button onClick={incrementar} className= 'bg-azulEscuro text-white rounded-lg'> Adicionar</button>
+            <div className="flex flex-col items-center justify-center m-7">
+                <h1 className="text-3xl font-bold">
+                    Contagem: {count}
+                </h1>
+                <button onClick={incrementar} className= 'bg-azulEscuro text-white rounded-lg b-2 p-2 m-5'> Adicionar</button>
+            </div>
         </div>
         
     )

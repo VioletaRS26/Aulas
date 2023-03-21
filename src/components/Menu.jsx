@@ -16,12 +16,22 @@ function Menu(){
                 </li>
                 <li>
                     <NavLink to='/Exemplo2' className='hover:underline'>
-                        Cronometro
+                        Contagem 
                     </NavLink>
                 </li>
                 <li>
                     <NavLink to='jogo_da_velha' className='hover:underline'>
                         Jogo da Velha 
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to='/Cronometro' className='hover:underline'>
+                        Cronometro
+                    </NavLink>
+                </li>
+                <li>
+                    <NavLink to='/FormuP' className='hover:underline'>
+                        Formulário
                     </NavLink>
                 </li>
             </ul>
