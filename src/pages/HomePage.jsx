@@ -1,5 +1,4 @@
 import React from "react";
-import Exemplo1 from '../components/Exemplo1';
 import Menu from "../components/Menu";
 
 function HomePage(){

@@ -1,16 +1,15 @@
 import React from "react";
 import Menu from "../components/Menu";
+import Login from "../components/Login";
 
-function Login(){
+function LoginP(){
     return(
         <div>
         <Menu/>
-            <div className="flex items-center justify-center">
-                <h1>Login</h1>
-            </div>
+        <Login/>
         </div>
         
     )
 }
 
-export default Login;
+export default LoginP;
