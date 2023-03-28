@@ -1,11 +1,11 @@
-import Formu from '../components/Formu';
+import Form1 from './Form1';
 import Menu from '../components/Menu';
 
 function FormuP(){
     return(
         <div>
             <Menu/>
-            <Formu/>
+            <Form1/>
         </div>
     )
 }

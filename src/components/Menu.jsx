@@ -34,6 +34,11 @@ function Menu(){
                         Formulário
                     </NavLink>
                 </li>
+                <li>
+                    <NavLink to='/GitHubPage' className='hover:underline'>
+                        GitHub
+                    </NavLink>
+                </li>
             </ul>
         </nav>
     );
